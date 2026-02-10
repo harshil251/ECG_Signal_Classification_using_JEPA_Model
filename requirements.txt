@@ -1,0 +1,21 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Signal Processing & Data Science
+numpy>=1.23.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# ECG Specific Tools
+wfdb>=4.1.0        # For reading PhysioNet ECG databases
+biosppy>=1.0.0      # For R-peak detection and ECG filtering
+
+# Utilities & Architecture
+einops>=0.6.0       # Essential for patch manipulation and JEPA dimensions
+timm>=0.9.0         # Pre-trained Vision Transformers (can be adapted for 1D)
+scikit-learn>=1.2.0
+tqdm>=4.65.0        # Progress bars for training loops
+pyyaml>=6.0         # For configuration files
